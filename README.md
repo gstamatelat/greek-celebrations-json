@@ -1,7 +1,7 @@
 # Greek Celebrations in JSON Format
 
 ## Sample
-```
+```json
 {
     "date": {
         "fixed": {
@@ -10,7 +10,7 @@
 			"sunday": false
 		},
 		"easter": 1,
-	}
+	},
 	"celebrations": {
 		"names": [
 			"ΓΙΩΡΓΟΣ",
