@@ -35,3 +35,47 @@
 - `celebrations`: The celebrations, contains subarrays `names` and `holidays`
 	- `names`: Name days
 	- `holidays`: National holidays
+
+## New Proposal
+```json
+{
+    "names": {
+        "Γεώργιος": {
+            "dates": [{
+                "fixed": {
+                    "day": 23,
+                    "month": 4
+                },
+                "easter": 1
+            }],
+            "alternatives": [
+                "ΓΕΩΡΓΙΟΣ",
+                "ΓΕΩΡΓΗΣ",
+                "ΓΙΩΡΓΟΣ",
+                "ΓΕΩΡΓΙΑ",
+                "ΓΙΩΡΓΙΑ",
+                "ΓΕΩΡΓΟΥΛΑ",
+                "ΓΩΓΩ"
+            ],
+            "description": "Αγίου Γεωργίου"
+        },
+        "Πολέμαρχος": {
+            "dates": [],
+            "alternatives": [
+                "ΠΟΛΕΜΑΡΧΟΣ"
+            ]
+        }
+    },
+    "holidays": {
+        "28η Οκτωβρίου": {
+            "dates": [{
+                "fixed": {
+                    "day": 28,
+                    "month": 10
+                }
+            }],
+            "description": "Επέτειος του Όχι"
+        }
+    }
+}
+```
