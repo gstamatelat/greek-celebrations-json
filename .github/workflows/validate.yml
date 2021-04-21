@@ -1,0 +1,17 @@
+name: Validate
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Run the validation script
+        run: |
+          python3 validate.py
