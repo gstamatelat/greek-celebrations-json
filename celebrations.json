@@ -7405,5 +7405,19 @@
         "Αγίων Πάντων"
       ]
     }
+  },
+  {
+    "date": {
+      "fixed": {
+        "day": 8,
+        "month": 5,
+        "sunday": true
+      }
+    },
+    "celebrations": {
+      "holidays": [
+        "Γιορτή της Μητέρας"
+      ]
+    }
   }
 ]
